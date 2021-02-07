@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP1 - Exercice 8</string>
+    <string name="departure_city">Ville de départ :</string>
+    <string name="arrival_city">Ville de d\'arrivée :</string>
+    <string name="placeholder">Entrez une ville...</string>
+    <string name="search">Rechercher</string>
+</resources>
