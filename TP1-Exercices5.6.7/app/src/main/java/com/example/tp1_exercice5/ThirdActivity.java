@@ -29,7 +29,7 @@ public class ThirdActivity extends AppCompatActivity {
 
         button = (Button) findViewById(R.id.call);
         button.setOnClickListener(v -> {
-            Intent intent = new Intent(Intent.ACTION_DIAL);
+            Intent intent = new Intent(Intent.ACTION_CALL);
             intent.setData(Uri.parse("tel:" + phoneNumberData));
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CALL_PHONE}, 0);
